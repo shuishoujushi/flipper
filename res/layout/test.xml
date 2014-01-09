@@ -1,9 +1,11 @@
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:stretchColumns="*" >
 
-    <TableRow>
+    <TableRow
+        android:id="@+id/tableRow_1">
 
          <ImageView
              android:id="@+id/imageView_11"
@@ -36,7 +38,8 @@
              android:src="@drawable/a"/>
      </TableRow>
 
-     <TableRow>
+     <TableRow
+        android:id="@+id/tableRow_2">
          <ImageView
              android:id="@+id/imageView_21"
              android:layout_width="0dip"
@@ -67,7 +70,8 @@
              android:src="@drawable/a"/>
      </TableRow>
 
-     <TableRow>
+     <TableRow
+        android:id="@+id/tableRow_3">
          <ImageView
              android:id="@+id/imageView_31"
              android:layout_width="0dip"
@@ -98,7 +102,8 @@
              android:src="@drawable/a"/>
      </TableRow>
 
-     <TableRow>
+     <TableRow
+        android:id="@+id/tableRow_4">
          <ImageView
              android:id="@+id/imageView_41"
              android:layout_width="0dip"
